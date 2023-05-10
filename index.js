@@ -13,8 +13,8 @@ const questions = [
 });
 
 function writeToFile(answers) {
-  fs.writeFile("logo.svg", generateShapes(answers), (err) =>
-    err ? console.log(err) : console.log("Successfully created Logo!")
+  fs.writeFile("./lib/logo.svg", generateShapes(answers), (err) =>
+    err ? console.log(err) : console.log("Generated logo.svg")
   );
 }
 
