@@ -3,7 +3,7 @@ const fs = require("fs");
 const generateShapes = require("./lib/generateShapes");
 
 const questions = [
-  "letters:input:Enter you three leters.",
+  "letters:input:Enter your three leters.",
   "letterColor:input:What color would you like the text? (You may enter a hexadecimal number if you like.)",
   "shape:checkbox:What shape would you like the logo to be?:circle:triangle:square",
   "shapeColor:input:What color would you like the shape? (You may enter a hexadecimal number if you like.)",
